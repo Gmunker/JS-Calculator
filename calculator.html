@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Javascript project for FreeCodeCamp, functioning Javascript calacultor styled with HTML/CSS/Bootstrap">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>.munkerDesigns Calcultor</title>
+
+				<link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro|Overlock' rel='stylesheet' type='text/css'>
+
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+    <div id="header">
+	  <div class="container-fluid">
+	    <div class="row">
+	      <a id="logo" href="http://www.munkerdesigns.com" target=_blank><h2  class='mono'>.munkerDesigns();</h2></a>
+				<span class="glyphicon glyphicon-book pull-right" data-toggle="modal" data-target="#myModal" id="manual-link" aria-hidden="true"></span>
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="col-sm-offset-4 container" id="cal">
+		<div class="row" >
+			
+			<div class="col-sm-4" id="display_text">
+				<p>0</p>
+			</div>
+		</div> <!--/.row-->
+
+		<div class="row" id="btnRow1">
+			<div class="col-sm-1">
+				<div class="cal_btn ce" id="clear_entry">CE</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn op" id="divide">&divide;</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn op" id="multiple">x</div>
+			</div>
+			<div class="col-sm-1">
+        <div class="cal_btn" id="switch"></div>
+			</div>
+		</div><!--/.row #btnRow1-->
+
+		<div class="row" id="btnRow2">
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="seven">7</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="eight">8</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="nine">9</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn c" id="clear_everything">C</div>
+			</div>
+		</div><!--/.row #btnRow2-->
+
+		<div class="row" id="btnRow3">
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="four">4</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="five">5</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="six">6</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn neg" id="minus">-</div>
+			</div>
+		</div><!--/.row #btnRow3-->
+
+		<div class="row" id="btnRow4">
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="one">1</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="two">2</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn input number" id="three">3</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn op" id="add">+</div>
+			</div>
+		</div><!--/.row #btnRow4-->
+
+		<div class="row" id="btnRow5">
+			<div class="col-sm-2">
+				<div class="cal_btn input number" id="zero">0</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn decimal" id="decimal">.</div>
+			</div>
+			<div class="col-sm-1">
+				<div class="cal_btn equal" id="equals">=</div>
+			</div>
+		</div><!--/.row #btnRow5-->
+
+	</div><!--/.container-->
+
+
+
+    	<!--Scripts-->
+        <script src="http://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
